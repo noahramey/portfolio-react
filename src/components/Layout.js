@@ -15,7 +15,7 @@ export default class Layout extends React.Component {
         <div className="app-content">{this.props.children}</div>
         <footer>
           <p>
-            &copy; Noah Ramey 2017
+            Testing
           </p>
         </footer>
       </div>
