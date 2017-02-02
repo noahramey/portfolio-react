@@ -5,8 +5,8 @@ import NavMenu from './NavMenu';
 export default class Layout extends React.Component {
   render() {
     return (
-      <div className="app-container">
-        <header>
+      <div className="container">
+        <header className="twelve columns">
           <Link to="/">
             <h3 className="logo-title">Noah Ramey</h3>
           </Link>
