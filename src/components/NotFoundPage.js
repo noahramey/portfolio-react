@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router';
+import React from 'react'
+import { Link } from 'react-router'
 
 export default class NotFoundPage extends React.Component {
-  render() {
+  render () {
     return (
       <div className="not-found">
         <h1>404</h1>
@@ -11,6 +11,6 @@ export default class NotFoundPage extends React.Component {
           <Link to="/">Go back to the main page</Link>
         </p>
       </div>
-    );
+    )
   }
 }

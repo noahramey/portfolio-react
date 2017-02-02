@@ -1,16 +1,16 @@
-import React from 'react';
-import { Link } from 'react-router';
-import NavMenu from './NavMenu';
+import React from 'react'
+import { Link } from 'react-router'
+import NavMenu from './NavMenu'
 
 export default class Layout extends React.Component {
-  render() {
+  render () {
     return (
       <div className="container">
         <header className="twelve columns">
           <Link to="/">
             <h3 className="logo-title">Noah Ramey</h3>
           </Link>
-          <NavMenu/>
+          <NavMenu />
         </header>
         <div className="app-content">{this.props.children}</div>
         <footer>
@@ -19,6 +19,6 @@ export default class Layout extends React.Component {
           </p>
         </footer>
       </div>
-    );
+    )
   }
 }

@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router';
-import NotFoundPage from './NotFoundPage';
-import projects from '../data/projects';
+import React from 'react'
+import { Link } from 'react-router'
+import NotFoundPage from './NotFoundPage'
+import projects from '../data/projects'
 
 export default class ProjectPage extends React.Component {
-  render() {
-    const id = this.props.params.id;
-    const project = projects.filter((project) => project.id === id)[0];
+  render () {
+    const id = this.props.params.id
+    const project = projects.filter((project) => project.id === id)[0]
     if (!project) {
-      return <NotFoundPage/>;
+      return <NotFoundPage />
     }
     return (
       <div className="project-full">
@@ -24,6 +24,6 @@ export default class ProjectPage extends React.Component {
           <Link to="/">Back to the index</Link>
         </div>
       </div>
-    );
+    )
   }
 }

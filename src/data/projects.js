@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 const projects = [
   {
@@ -13,6 +13,6 @@ const projects = [
     'description': 'A website that searches the SoundCloud library and plays a track at random.',
     'url': 'https://github.com/noahramey/soundcloud-app'
   }
-];
+]
 
-export default projects;
+export default projects
